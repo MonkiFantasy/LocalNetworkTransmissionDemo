@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity"
+    android:orientation="vertical"
+    android:gravity="center|top">
+
+    <EditText
+        android:id="@+id/et_from_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="你使用哪个端口发送" />
+    <EditText
+        android:id="@+id/et_to_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="发送到哪个ip" />
+    <EditText
+        android:id="@+id/et_to_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="另一位使用哪个端口接收" />
+    <EditText
+        android:id="@+id/et_receive_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="你使用哪个端口接收" />
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开启聊天"/>
+    <Button
+        android:id="@+id/btn_file_receive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开启文件服务"/>
+    <EditText
+        android:id="@+id/et_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="聊天信息" />
+    <Button
+        android:id="@+id/btn_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择文件"/>
+    <Button
+        android:id="@+id/btn_file_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送文件"/>
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送"/>
+    <TextView
+        android:id="@+id/tv_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:background="@color/teal_200"/>
+
+
+</LinearLayout>
